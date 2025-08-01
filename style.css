@@ -1,3 +1,9 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 #nav {
     display: flex;
     justify-content: space-between;
@@ -67,16 +73,12 @@ h1{
     margin-right: 20px;
 }
 
-#insta, #Linkedln, #Call, #Email {
-    display: flex;
-    flex-direction: column;
-    margin-top: 5px;
-}
-
 figcaption {
-    margin-top: 10px;
-    color: red;
-    font-size: 18px;
+    margin-top: 15px;
+    color: #4682B4;
+    font-size: 22px;
+    font-style: italic;
+    font-family: "Poppins", sans-serif;
 }
 
 p1{
@@ -86,9 +88,6 @@ p1{
     text-decoration: underline;
 }
 
-#contactImg {
-    margin-top: 10px;
-}
 
 p {
     margin-left: 5px;
@@ -96,4 +95,33 @@ p {
     font-weight: 150;
     font-style: normal;
     line-height: 1.5;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+#menu{
+    font-family: "Poppins", sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 40px;
+    font-size: 25px;
+    background-color: #f0f4f8;
+    color: navy;
+    text-align: center;
+}
+
+#contactImageContainer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#sections {
+    background: linear-gradient(135deg, #F8FBFF, #E3F2FD);
+    background-size: cover;
 }

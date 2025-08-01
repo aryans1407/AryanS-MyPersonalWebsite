@@ -131,44 +131,32 @@
 
         <hr>
         <h1 id="contacts">Contact</h1>
-        <div id="Contacts">
-            <div id="insta">
-                <p1>Instagram</p1>
-                <a href="https://www.instagram.com/aryan__sharma1407/">
-                    <img src="images/Instagram.png" style="width: 150px; height: 200px" id = "contactImg">
-                </a>
-            </div>
-
-            <div id="Linkedln">
-                <p1>Linkedln</p1>
-                <a href="https://www.linkedin.com/in/aryan-sharma-a5aa78374/" id = "contactImg">
-                    <img src="images/Linkedln.png" style="width: 200px; height: 200px">
-                </a>
-            </div>
-
-            <div id="Call">
-                <p1>Call</p1>
-                <img src="images/Phone.png" style="width: 200px; height: 200px" id = "contactImg">
-                <figcaption>Call me at 929-327-2528!</figcaption>
-            </div>
-
-            <div id="Email">
-                <p1>GMAIL</p1>
-                <a
-                    href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRpdLpfMsnVtCbmRnDhdpMcmQrpDlRsdqnDddbPMbPQxBSXphKfHLTdgnPlBxCNvBHQPvwG">
-                    <img src="images/GMAIL.png" style="width: 200px; height: 200px" id = "contactImg">
-                </a>
-                <figcaption>Click above to send me an email</figcaption>
-            </div>
+        <div id=Contacts">
+            <form>
+                <h2 id = "slogan">Questions? Ideas? Let's Chat!</h2>
+                <select id="menu">
+                    <option value = "" disabled selected>Select a contact method!</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Linkedln">Linkedln</option>
+                    <option value="Phone">Phone</option>
+                    <option value="EMAIL">GMAIL</option>
+                </select>
+            </form>
+            <a href id = "source" target = "_blank">
+                <div id="contactImageContainer">
+                    <img id = "contactImage">
+                    <figcaption id = "imageCaption"></figcaption>
+                </div>
+            </a>
         </div>
 
         <hr>
         <a href="#nav">
             <p>Back to Top!</p>
         </a>
-
     </div>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
